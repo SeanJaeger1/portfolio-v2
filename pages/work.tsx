@@ -1,15 +1,7 @@
 import { NextPage } from "next"
-import Header from "@/components/Header"
 
-interface Props {}
-
-const Work: NextPage<Props> = ({}) => {
-  return (
-    <div>
-      <Header />
-      <div>About page</div>
-    </div>
-  )
+const Work: NextPage = () => {
+  return <div>Work page</div>
 }
 
 export default Work
