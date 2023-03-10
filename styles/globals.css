@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link-button {
+  font-size: 1.5rem;
+}
+
+.link-button:hover {
+  border-bottom: 2px solid #ffbc00;
+  transition: border-color 0.7s;
+}
