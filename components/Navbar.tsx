@@ -1,24 +1,11 @@
-import Link from "next/link"
+import NavbarLinks from "./NavbarLinks"
 
-function Home() {
+function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/about">About Me</Link>
-        </li>
-        <li>
-          <Link href="/work">Work</Link>
-        </li>
-        <li>
-          <Link href="/contact">Contact</Link>
-        </li>
-      </ul>
+    <nav className="h-24 px-16">
+      <NavbarLinks />
     </nav>
   )
 }
 
-export default Home
+export default Navbar
