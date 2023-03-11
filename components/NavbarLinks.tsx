@@ -24,6 +24,15 @@ function NavbarLinks() {
             Contact
           </Link>
         </li>
+        <li>
+          <Link
+            href="Sean-jaeger-cv.pdf"
+            target="_BLANK"
+            className="link-button mx-4"
+          >
+            CV
+          </Link>
+        </li>
       </ul>
     </div>
   )
